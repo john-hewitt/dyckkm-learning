@@ -1,0 +1,34 @@
+corpus:
+  train_corpus_loc: data/k8_m3_tr20000000.train
+  dev_corpus_loc: data/k8_m3_tr20000000.dev
+  test_corpus_loc:  data/k8_m3_tr20000000.test
+language:
+  bracket_types: 8
+  dev_max_length: 84
+  dev_max_stack_depth: 3
+  dev_min_length: 1
+  dev_sample_count:  20000
+  test_max_length: 168
+  test_max_stack_depth: 3
+  test_min_length: 85
+  test_sample_count: 300000
+  train_max_length: 84
+  train_max_stack_depth: 3
+  train_min_length: 1
+  train_sample_count: 20000000
+lm:
+  embedding_dim: 26
+  hidden_dim: 24
+  lm_type: LSTM
+  num_layers: 1
+  save_path: lm.params
+reporting:
+  reporting_loc: .
+  reporting_methods:
+  - constraints
+training:
+  batch_size: 10
+  dropout: 0.0
+  learning_rate: 0.001
+  max_epochs: 100
+  seed: 1

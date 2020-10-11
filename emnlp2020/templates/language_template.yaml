@@ -1,0 +1,18 @@
+corpus:
+  train_corpus_loc: __TRAIN_PATH__
+  dev_corpus_loc: __DEV_PATH__
+  test_corpus_loc:  __TEST_PATH__
+language:
+  bracket_types: __BRACKET_TYPES__
+  dev_max_length: __TRAIN_MAX_LEN__
+  dev_max_stack_depth: __STACK_DEPTH__
+  dev_min_length: __TRAIN_MIN_LEN__
+  dev_sample_count:  __DEV_COUNT__
+  test_max_length: __TEST_MAX_LEN__
+  test_max_stack_depth: __STACK_DEPTH__
+  test_min_length: __TEST_MIN_LEN__
+  test_sample_count: __TEST_COUNT__
+  train_max_length: __TRAIN_MAX_LEN__
+  train_max_stack_depth: __STACK_DEPTH__
+  train_min_length: __TRAIN_MIN_LEN__
+  train_sample_count: __TRAIN_COUNT__
